@@ -9,6 +9,11 @@ export interface CTA {
   outline?: boolean;
 }
 
+export interface LanguageOption {
+  code: string;
+  label: string;
+}
+
 export interface Nav {
   logo?: {
     src?: ImageWidget;
@@ -19,68 +24,68 @@ export interface Nav {
       label?: string;
       url?: string;
     }[];
-    buttons: CTA[];
+    buttons?: CTA[];
   };
+  languages?: LanguageOption[];
 }
 
 export default function Header({
   logo = {
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
-    alt: "Logo",
+    alt: "Renu",
   },
   navigation = {
     links: [
-      { label: "Home", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Princing", url: "/" },
-      { label: "Contact", url: "/" },
-    ],
-    buttons: [
-      { id: "change-me-1", href: "/", text: "Change me", outline: false },
-      { id: "change-me-2", href: "/", text: "Change me", outline: true },
+      { label: "Porque biometano?", url: "/" },
+      { label: "A Renu", url: "/" },
+      { label: "Para Consumidores", url: "/" },
+      { label: "Para Produtores Rurais", url: "/" },
+      { label: "Nossos Contatos", url: "/" },
     ],
   },
+  languages = [
+    { code: "BR", label: "BR" },
+    { code: "EN", label: "EN" },
+  ],
 }: Nav) {
   return (
-    <nav class="drawer drawer-end">
+    <nav class="drawer drawer-end bg-gray-100">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
       <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
-        <a href="/">
+        <a href="/" class="flex-shrink-0">
           <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
         </a>
 
-        <div class="hidden items-center justify-between lg:flex w-full">
+        <div class="hidden items-center justify-center lg:flex w-full">
           <ul class="flex">
             {navigation.links.map((link) => (
               <li>
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
+                  class="link no-underline hover:underline p-4 text-green-800 font-medium"
                 >
                   {link.label}
                 </a>
               </li>
             ))}
           </ul>
-          <ul class="flex gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
+        </div>
+
+        <div class="hidden lg:flex items-center">
+          <div class="flex border border-gray-300 rounded-lg overflow-hidden">
+            {languages.map((lang, index) => (
+              <a 
+                href="#" 
+                class={`px-3 py-1 text-sm ${index === 0 ? 'bg-green-800 text-white' : 'bg-white text-black'}`}
               >
-                {item?.text}
+                {lang.label}
               </a>
             ))}
-          </ul>
+          </div>
         </div>
 
         <label
@@ -120,21 +125,18 @@ export default function Header({
             ))}
           </ul>
 
-          <ul class="p-4 flex items-center gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul>
+          <div class="p-4 flex items-center justify-center">
+            <div class="flex border border-gray-300 rounded-lg overflow-hidden">
+              {languages.map((lang, index) => (
+                <a 
+                  href="#" 
+                  class={`px-3 py-1 text-sm ${index === 0 ? 'bg-green-800 text-white' : 'bg-white text-black'}`}
+                >
+                  {lang.label}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </aside>
     </nav>

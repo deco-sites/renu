@@ -14,7 +14,7 @@ export interface Props {
 
 const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
   src:
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/03fbcc78-ca86-4616-a59a-b8aa18331a9c",
+    "http://localhost:10503/live/invoke/website/loaders…bf61ef544599b5.png&fit=cover&width=600&height=600",
   altText: "Logo",
 }));
 
@@ -37,15 +37,40 @@ export default function Logos({
     </div>
   );
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 py-6 lg:py-14">
-      <div class="flex flex-col gap-12">
-        <p class="text-center text-lg">{title}</p>
-        <div class="relative w-full overflow-hidden h-11">
-          <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-11">
-            {slideContent}
+    <section class="py-16 lg:py-24 relative overflow-hidden">
+      {/* Background Elements */}
+      <div class="absolute inset-0 z-0">
+        <div class="absolute top-0 right-0 h-64 w-64 rounded-full bg-green-100/20 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-blue-100/20 blur-3xl"></div>
+      </div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        {/* Título Padronizado */}
+        <div class="flex flex-col items-center mb-16">
+          <div class="inline-flex items-center justify-center px-4 py-1.5 mb-6 bg-green-100 rounded-full">
+            <span class="text-sm font-medium text-green-800">Parceiros</span>
+          </div>
+          
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 text-center mb-8 max-w-4xl">
+            {title}
+          </h2>
+          
+          <div class="flex items-center gap-3 justify-center mb-10">
+            <div class="h-1 w-10 bg-green-500 rounded-full"></div>
+            <div class="h-1 w-16 bg-green-700 rounded-full"></div>
+            <div class="h-1 w-10 bg-green-500 rounded-full"></div>
+          </div>
+        </div>
+        
+        {/* Logo grid */}
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+          <div class="relative w-full overflow-hidden h-11">
+            <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-11">
+              {slideContent}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

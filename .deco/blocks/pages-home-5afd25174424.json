@@ -1,42 +1,144 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>RENU</p>",
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+      "backgroundImage": "https://renuenergia.com.br/static/media/bg.a0ab49da6e27e85c833d.jpg"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BiometanoSection.tsx",
+        "image": "https://renuenergia.com.br/static/media/biogas.b57bd177a6d3abecfce4.jpeg"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/About.tsx",
+        "logo": "https://renuenergia.com.br/static/media/logo.bf9210bf61ef544599b5.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Mission.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SustainabilityGoalsSection.tsx",
+        "backgroundColor": "#f5f5f5"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SolutionsSection.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://renuenergia.com.br/static/media/bg2.8f9490627f1e1e139687.jpg",
+      "placement": "right",
+      "title": "PARA CONSUMIDORES",
+      "backgroundColor": "#F9FAFB",
+      "iconBorderColor": "#10B981",
+      "benefits": [
+        {
+          "text": "Nossa solução se aplica a empresas baseadas no interior do país, próximas de regiões de produção agrícola"
+        },
+        {
+          "text": "A Renu produz e fornece biometano seguindo as especificações e nível de serviço acordados"
+        },
+        {
+          "text": "Possibilitamos a substituição do diesel pelo biometano em sua frota de caminhões e maquinário industrial"
+        },
+        {
+          "text": "A produção de biometano é descentralizada, gerando menores riscos operacionais e maior estabilidade no fornecimento"
+        },
+        {
+          "text": "O consumidor terá baixa necessidade de Capex (investimentos), focado apenas na substituição da frota por veículos movidos a biometano. Além disso, o projeto é implementado de forma faseada."
+        },
+        {
+          "text": "Ao adotar 100% de biometano na frota, é possível obter redução de mais de 85% da emissão de carbono"
+        },
+        {
+          "text": "A utilização de biometano permite economia financeira relevante, com redução de 20% a 30% dos custos totais com combustível na sua empresa"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "PARA PRODUTORES RURAIS",
+      "image": "https://renuenergia.com.br/static/media/bg2.8f9490627f1e1e139687.jpg",
+      "placement": "left",
+      "backgroundColor": "#F9FAFB",
+      "iconBorderColor": "#0F766E",
+      "benefits": [
+        {
+          "text": "A Renu <strong>instala e mantém toda a infraestrutura</strong> para conversão do biogás em biometano na sua fazenda"
+        },
+        {
+          "text": "A Renu <strong>comercializa o biometano</strong>, sem que o produtor rural tenha que se preocupar com isso"
+        },
+        {
+          "text": "Geramos uma <strong>renda extra mensal significativa</strong> para o produtor com base na produção de biometano gerado, independente do quanto foi comercializado"
+        },
+        {
+          "text": "Caso o produtor <strong>não possua biodigestor</strong> na fazenda, a Renu viabiliza essa estrutura"
+        },
+        {
+          "text": "Caso o produtor tenha interesse em <strong>alugar o módulo de biometano</strong>, a Renu possui essa oferta para você"
+        }
+      ],
+      "__render": "RuralProducersSection"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "__render": "ProjectsShowcase",
+      "title": "Nossos Projetos",
+      "backgroundColor": "#f5f7f4",
+      "description": "Conheça os cases de sucesso da Renu Energia",
+      "projects": [
+        {
+          "title": "A Usina de Biodigestão em Jacarezinho",
+          "subtitle": "Planta em localização privilegiada e com área para expansão",
+          "image": "https://assets.decocache.com/renu/133249b2-6bc9-41f2-b2bd-b6cbf0c128b4/unnamed.jpg",
+          "features": [
+            {
+              "text": "Planta no estado do PR, cerca de 400km de São Paulo/SP;"
+            },
+            {
+              "text": "<strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;"
+            },
+            {
+              "text": "Operação atual contempla capacidade de (i) 50 ton/dia de resíduos (gate fee); (ii) 5 mil m³/dia de biogás, queimado no flare;"
+            },
+            {
+              "text": "A empresa possui <strong>terreno para expansão</strong> das operações, já incluído na transação;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}

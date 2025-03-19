@@ -1,0 +1,15 @@
+{
+  "name": "collections/blog/posts/508c20a3e6f4",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [],
+    "categories": [],
+    "extraProps": [],
+    "image": "https://assets.decocache.com/renu/133249b2-6bc9-41f2-b2bd-b6cbf0c128b4/unnamed.jpg",
+    "title": "A Usina de Biodigestão em Jacarezinho",
+    "excerpt": "Planta em localização privilegiada e com área para expansão",
+    "date": "2025-03-18",
+    "slug": "1",
+    "content": "<ul><li><p style=\"text-align: justify\"><span style=\"color: rgb(20, 74, 65); font-size: 12pt\">Planta no&nbsp; estado do PR, cerca de 400km de São Paulo/SP;</span></p></li><li><p style=\"text-align: justify\"><strong><u><span style=\"color: rgb(20, 74, 65); font-size: 12pt\">Localização privilegiada</span></u></strong><span style=\"color: rgb(20, 74, 65); font-size: 12pt\">, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;</span></p></li><li><p style=\"text-align: justify\"><span style=\"color: rgb(20, 74, 65); font-size: 12pt\">Operação atual contempla capacidade de (i) 50 ton/dia de resíduos (gate fee); (ii) 5 mil m³/dia de biogás, queimado no flare;</span></p></li><li><p style=\"text-align: justify\"><span style=\"color: rgb(20, 74, 65); font-size: 12pt\">A empresa possui </span><strong><u><span style=\"color: rgb(20, 74, 65); font-size: 12pt\">terreno para expansão</span></u></strong><span style=\"color: rgb(20, 74, 65); font-size: 12pt\"> das operações, já incluído na transação;</span></p></li></ul>"
+  }
+}

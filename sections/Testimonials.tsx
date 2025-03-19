@@ -36,6 +36,7 @@ export interface Props {
    * @description time (in seconds) to start the carousel autoplay
    */
   interval?: number;
+  subtitle?: string;
 }
 
 const DEFAULT_PROPS = {
@@ -195,37 +196,65 @@ function Carousel(props: Props) {
   const { title, slides, interval } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <div
-      id={id}
-      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28"
-    >
-      <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16">
-        {title}
-      </h2>
-      <Slider
-        class="carousel carousel-center w-full col-span-full row-span-full gap-6"
-        rootId={id}
-        interval={interval && interval * 1e3}
-        infinite
-      >
-        {slides?.map((slide, index) => (
-          <Slider.Item
-            index={index}
-            class="carousel-item max-w-[600px] w-full"
-          >
-            <SliderItem
-              slide={slide}
-              id={`${id}::${index}`}
-            />
-          </Slider.Item>
-        ))}
-      </Slider>
-
-      <div class="flex justify-between pt-8 lg:px-16">
-        {props.dots && <Dots slides={slides} interval={interval} />}{" "}
-        {props.arrows && <Buttons />}
+    <section class="py-16 lg:py-24 relative overflow-hidden">
+      {/* Background Elements */}
+      <div class="absolute inset-0 z-0">
+        <div class="absolute top-0 right-0 h-64 w-64 rounded-full bg-green-100/30 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-blue-100/30 blur-3xl"></div>
       </div>
-    </div>
+      
+      <div class="container mx-auto px-4 relative z-10">
+        {/* Título Padronizado */}
+        <div class="flex flex-col items-center mb-16">
+          <div class="inline-flex items-center justify-center px-4 py-1.5 mb-6 bg-green-100 rounded-full">
+            <span class="text-sm font-medium text-green-800">Depoimentos</span>
+          </div>
+          
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-green-800 text-center mb-8 max-w-4xl">
+            {title}
+          </h2>
+          
+          <div class="flex items-center gap-3 justify-center mb-10">
+            <div class="h-1 w-10 bg-green-500 rounded-full"></div>
+            <div class="h-1 w-16 bg-green-700 rounded-full"></div>
+            <div class="h-1 w-10 bg-green-500 rounded-full"></div>
+          </div>
+          
+          {props.subtitle && (
+            <div class="max-w-3xl mx-auto text-center">
+              <p class="text-lg text-gray-700 mb-8">{props.subtitle}</p>
+            </div>
+          )}
+        </div>
+        
+        {/* Testimonials Carousel */}
+        <div class="relative px-4 sm:px-8 lg:px-16">
+          <Slider
+            class="carousel carousel-center w-full col-span-full row-span-full gap-6"
+            rootId={id}
+            interval={interval && interval * 1e3}
+            infinite
+          >
+            {slides?.map((slide, index) => (
+              <Slider.Item
+                index={index}
+                class="carousel-item max-w-[600px] w-full"
+              >
+                <SliderItem
+                  slide={slide}
+                  id={`${id}::${index}`}
+                />
+              </Slider.Item>
+            ))}
+          </Slider>
+
+          <div class="flex justify-between pt-8 lg:px-16">
+            {props.dots && <Dots slides={slides} interval={interval} />}{" "}
+            {props.arrows && <Buttons />}
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
