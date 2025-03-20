@@ -205,7 +205,7 @@ export default function SolutionsSection({
           </h3>
           
           {/* Mantendo o estilo flex do layout que o cliente gostou */}
-          <div className="flex flex-col lg:flex-row items-stretch justify-center gap-0 lg:gap-12 relative">
+          <div className="flex flex-col lg:flex-row items-stretch justify-center gap-4 lg:gap-12 relative">
             {/* Logo central em telas médias e grandes */}
             {logoImage && (
               <div className="hidden lg:flex absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">

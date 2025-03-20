@@ -2,7 +2,7 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Benefit {
-  icon: string;
+  icon: ImageWidget;
   title: string;
   description: string;
 }
@@ -65,12 +65,6 @@ export default function BiometanoSection({
 }: Props) {
   return (
     <section class="py-16 lg:py-24 relative">
-      {/* Background decorations */}
-      <div class="absolute inset-0 z-0">
-        <div class="absolute top-0 left-0 h-64 w-64 rounded-full bg-green-100/30 blur-3xl"></div>
-        <div class="absolute bottom-0 right-0 h-64 w-64 rounded-full bg-blue-100/30 blur-3xl"></div>
-      </div>
-      
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}
         <div class="flex flex-col items-center mb-16">
@@ -91,7 +85,7 @@ export default function BiometanoSection({
           {/* Main content */}
           <div class="flex flex-col md:flex-row items-center gap-10 md:gap-16">
             {/* Image with rounded border and shadow */}
-            <div class="relative">
+            <div class="relative w-full">
               <div class="absolute inset-0 bg-gradient-to-tr from-green-500/20 to-blue-500/20 rounded-2xl transform rotate-1"></div>
               <div class="relative overflow-hidden rounded-2xl border border-gray-200 shadow-lg">
                 <Image

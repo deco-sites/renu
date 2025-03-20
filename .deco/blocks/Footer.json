@@ -1,1 +1,14 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {},
+  "linksItems": [],
+  "logo": {
+    "src": "https://assets.decocache.com/renu/bdbd79ab-f771-444f-97ac-b04956ea09fc/logo.bf9210bf61ef544599b5-(1).png"
+  },
+  "footerLogo": {
+    "src": "https://assets.decocache.com/renu/9696a61d-4c8f-4abc-b857-4cfea112846f/logo.bf9210bf61ef544599b5.png"
+  }
+}

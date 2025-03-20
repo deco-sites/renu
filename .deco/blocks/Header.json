@@ -1,1 +1,32 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Porque biometano?",
+        "url": "/"
+      },
+      {
+        "label": "A Renu",
+        "url": "/"
+      },
+      {
+        "label": "Para Consumidores",
+        "url": "/"
+      },
+      {
+        "label": "Para Produtores Rurais",
+        "url": "/"
+      },
+      {
+        "label": "Nossos Contatos",
+        "url": "/"
+      }
+    ],
+    "buttons": []
+  },
+  "languages": [],
+  "logo": {
+    "src": "https://assets.decocache.com/renu/bdbd79ab-f771-444f-97ac-b04956ea09fc/logo.bf9210bf61ef544599b5-(1).png"
+  }
+}

@@ -22,6 +22,7 @@ export interface Props {
   
   /**
    * @title Section background color
+   * @format color
    * @default #f5f7f4
    */
   backgroundColor?: string;

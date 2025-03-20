@@ -38,11 +38,6 @@ export default function Logos({
   );
   return (
     <section class="py-16 lg:py-24 relative overflow-hidden">
-      {/* Background Elements */}
-      <div class="absolute inset-0 z-0">
-        <div class="absolute top-0 right-0 h-64 w-64 rounded-full bg-green-100/20 blur-3xl"></div>
-        <div class="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-blue-100/20 blur-3xl"></div>
-      </div>
       
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}

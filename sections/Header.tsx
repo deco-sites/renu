@@ -50,11 +50,11 @@ export default function Header({
   ],
 }: Nav) {
   return (
-    <nav class="drawer drawer-end bg-gray-100">
+    <nav class="fixed top-0 left-0 right-0 z-50 drawer drawer-end bg-gray-100">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
+      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-1 lg:py-4">
         <a href="/" class="flex-shrink-0">
           <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
         </a>
@@ -97,7 +97,7 @@ export default function Header({
       </div>
 
       {/* sidebar */}
-      <aside class="drawer-side z-50">
+      <aside class="drawer-side z-50 overflow-hidden">
         {/* Close when clicking on overlay */}
         <label
           htmlFor="mobile-drawer-nav"

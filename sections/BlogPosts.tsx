@@ -80,11 +80,6 @@ export default function ProjectsShowcase({
 }: Props) {
   return (
     <section class="py-20 overflow-hidden relative" style={{ backgroundColor }}>
-      {/* Background decoration */}
-      <div class="absolute inset-0 opacity-30">
-        <div class="absolute h-96 w-96 rounded-full bg-green-100/60 blur-3xl -top-48 -right-48"></div>
-        <div class="absolute h-64 w-64 rounded-full bg-blue-100/60 blur-3xl -bottom-48 -left-48"></div>
-      </div>
       
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="max-w-5xl mx-auto mb-16">

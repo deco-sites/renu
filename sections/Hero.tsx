@@ -53,7 +53,7 @@ export default function Hero({
   return (
     <div class="relative w-full h-screen overflow-hidden">
       {/* Background Image with parallax effect */}
-      <div class="absolute inset-0 w-full h-full transform scale-105">
+      <div class="absolute inset-0 w-full h-full">
         <Image
           src={backgroundImage}
           alt="Background"
@@ -63,12 +63,12 @@ export default function Hero({
           loading="eager"
         />
         {/* Gradient overlay for more depth */}
-        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent w-full"></div>
       </div>
       
       {/* Content */}
       <div class="relative container mx-auto px-4 h-full flex flex-col justify-center lg:justify-end lg:pb-32 z-10">
-        <div class="flex flex-col gap-6 max-w-3xl animate-fade-in">
+        <div class="flex flex-col max-w-3xl animate-fade-in">
           {/* RENU Title with modern styling */}
           <div class="group relative w-fit">
             <div class="absolute -inset-0.5"></div>
@@ -90,7 +90,7 @@ export default function Hero({
           <div class="flex flex-wrap gap-4 mt-6">
             <a
               href={cta?.href}
-              class="relative overflow-hidden group bg-green-700 hover:bg-green-800 text-white py-4 px-8 rounded-sm text-lg font-medium transition-all duration-300 shadow-lg hover:shadow-green-700/30"
+              class="rounded-full relative overflow-hidden group bg-green-700 hover:bg-green-800 text-white py-4 px-8 overflow-hidden text-lg font-medium transition-all duration-300 shadow-lg hover:shadow-green-700/30"
             >
               <span class="relative z-10">{cta?.text}</span>
               <span class="absolute inset-0 w-0 bg-green-600 transition-all duration-300 group-hover:w-full"></span>

@@ -29,15 +29,10 @@ export interface Props {
   
   /**
    * @title Background color
+   * @format color
    * @default #f5f7f4
    */
   backgroundColor?: string;
-  
-  /**
-   * @title Text color
-   * @default #0e503c
-   */
-  textColor?: string;
   
   /**
    * @title Mission items
@@ -49,7 +44,6 @@ export interface Props {
 export default function MissionSection({
   title = "Transformamos resíduos em energia limpa, impulsionando a sustentabilidade.",
   backgroundColor = "#f5f7f4",
-  textColor = "#0e503c",
   items = [
     {
       title: "Nosso objetivo",
@@ -70,11 +64,6 @@ export default function MissionSection({
 }: Props) {
   return (
     <section class="py-16 lg:py-24 relative bg-gray-50">
-      {/* Background decorations */}
-      <div class="absolute inset-0 z-0">
-        <div class="absolute top-0 right-0 h-64 w-64 rounded-full bg-green-100/30 blur-3xl"></div>
-        <div class="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-blue-100/30 blur-3xl"></div>
-      </div>
       
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}
@@ -142,7 +131,7 @@ export default function MissionSection({
                   <div class="flex mb-4">
                     <h3 
                       class="text-xl font-semibold"
-                      style={{ color: textColor }}
+                      style={{ color: "#0e503c" }}
                     >
                       {item.title}
                     </h3>

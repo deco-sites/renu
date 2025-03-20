@@ -53,7 +53,6 @@ export default function BlogPosts({
 }: Props) {
   return (
     <section class="py-16 lg:py-24 relative overflow-hidden">
-      {/* Background Elements */}
       
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}
