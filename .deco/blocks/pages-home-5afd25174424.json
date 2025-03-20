@@ -9,7 +9,7 @@
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>RENU</p>",
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-      "backgroundImage": "https://renuenergia.com.br/static/media/bg.a0ab49da6e27e85c833d.jpg"
+      "backgroundImage": "https://assets.decocache.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -22,7 +22,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/About.tsx",
-        "logo": "https://renuenergia.com.br/static/media/logo.bf9210bf61ef544599b5.png",
+        "logo": "https://assets.decocache.com/renu/9696a61d-4c8f-4abc-b857-4cfea112846f/logo.bf9210bf61ef544599b5.png",
         "partners": [
           {
             "image": "https://assets.decocache.com/renu/33f9cce5-bd95-4a18-ad3c-3f7f88c241e9/unnamed-(1).png",
@@ -57,7 +57,7 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "image": "https://renuenergia.com.br/static/media/bg2.8f9490627f1e1e139687.jpg",
+      "image": "https://assets.decocache.com/renu/f354cb7b-01f5-403f-96d8-601d1b6fb9e2/bg2.8f9490627f1e1e139687.jpg",
       "placement": "right",
       "title": "PARA CONSUMIDORES",
       "backgroundColor": "#F9FAFB",
@@ -89,7 +89,7 @@
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "PARA PRODUTORES RURAIS",
-      "image": "https://renuenergia.com.br/static/media/bg2.8f9490627f1e1e139687.jpg",
+      "image": "https://assets.decocache.com/renu/6f5621b6-051e-409d-9395-1cf722d3607a/bg1.9aeac7b343aa37ab39ac.jpg",
       "placement": "left",
       "backgroundColor": "#F9FAFB",
       "iconBorderColor": "#0F766E",
