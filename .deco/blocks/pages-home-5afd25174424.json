@@ -9,35 +9,8 @@
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>RENU</p>",
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-      "backgroundImage": "https://assets.decocache.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg"
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx",
-      "__render": "ProjectsShowcase",
-      "title": "Nossos Projetos",
-      "backgroundColor": "#f5f7f4",
-      "description": "<p>Conheça os cases de sucesso da Renu Energia</p>",
-      "projects": [
-        {
-          "title": "A Usina de Biodigestão em Jacarezinho",
-          "subtitle": "Planta em localização privilegiada e com área para expansão",
-          "image": "https://assets.decocache.com/renu/133249b2-6bc9-41f2-b2bd-b6cbf0c128b4/unnamed.jpg",
-          "features": [
-            {
-              "text": "Planta no estado do PR, cerca de 400km de São Paulo/SP;"
-            },
-            {
-              "text": "<strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;"
-            },
-            {
-              "text": "<p>Operação atual contempla capacidade de (i) <strong>50 ton/dia</strong> de resíduos; (ii) <strong>5 mil m³/dia</strong> de biogás</p>"
-            },
-            {
-              "text": "A empresa possui <strong>terreno para expansão</strong> das operações, já incluído na transação;"
-            }
-          ]
-        }
-      ]
+      "backgroundImage": "https://assets.decocache.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg",
+      "subtitle": "Criando uma plataforma de sustentabilidade a partir da gestão de resíduos e geração de biometano e biofertilizante"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -62,20 +35,8 @@
             "name": "Equitas"
           }
         ],
-        "content": "<p>A Renu é uma plataforma de investimentos em projetos de transição energética. Nosso foco é de desenvolver e financiar projetos de geração de biometano, viabilizando sua utilização em regiões do país que hoje não possuem acesso a essa energia limpa.</p>"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Mission.tsx"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/SustainabilityGoalsSection.tsx",
-        "backgroundColor": "#f5f5f5"
+        "content": "<p>A Renu é uma plataforma de investimentos em projetos de transição energética. Nosso foco é de desenvolver e financiar projetos de geração de biometano, viabilizando sua utilização em regiões do país que hoje não possuem acesso a essa energia limpa.</p>",
+        "partnersInfo": "<p>Somos uma empresa investida e incubada pelo braço de transição energética da Drys Capital, que é uma gestora de recursos baseada em São Paulo.</p><p style=\"text-align: start\">O braço de transição energética da Drys também conta com um investimento na Electy, energytech que comercializa energia limpa de forma 100% digital.</p>"
       }
     },
     {
@@ -133,42 +94,50 @@
             }
           ],
           "title": "Empresas de consumo de gás e diesel"
-        }
+        },
+        "model1Title": "Construímos projetos customizados para atender uma vasta gama de resíduos e beneficiamos a cadeia energética através do biometano."
       }
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "image": "https://assets.decocache.com/renu/f354cb7b-01f5-403f-96d8-601d1b6fb9e2/bg2.8f9490627f1e1e139687.jpg",
-      "placement": "right",
-      "title": "PARA CONSUMIDORES",
-      "backgroundColor": "#F9FAFB",
-      "iconBorderColor": "#10B981",
-      "benefits": [
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "__render": "ProjectsShowcase",
+      "title": "Nossos Projetos",
+      "backgroundColor": "#f5f7f4",
+      "description": "<p>Conheça os cases de sucesso da Renu Energia</p>",
+      "projects": [
         {
-          "text": "Nossa solução se aplica a empresas baseadas no interior do país, próximas de regiões de produção agrícola"
-        },
-        {
-          "text": "A Renu produz e fornece biometano seguindo as especificações e nível de serviço acordados"
-        },
-        {
-          "text": "Possibilitamos a substituição do diesel pelo biometano em sua frota de caminhões e maquinário industrial"
-        },
-        {
-          "text": "A produção de biometano é descentralizada, gerando menores riscos operacionais e maior estabilidade no fornecimento"
-        },
-        {
-          "text": "O consumidor terá baixa necessidade de Capex (investimentos), focado apenas na substituição da frota por veículos movidos a biometano. Além disso, o projeto é implementado de forma faseada."
-        },
-        {
-          "text": "Ao adotar 100% de biometano na frota, é possível obter redução de mais de 85% da emissão de carbono"
-        },
-        {
-          "text": "A utilização de biometano permite economia financeira relevante, com redução de 20% a 30% dos custos totais com combustível na sua empresa"
+          "title": "A Usina de Biodigestão em Jacarezinho",
+          "subtitle": "Planta em localização privilegiada e com área para expansão",
+          "image": "https://assets.decocache.com/renu/133249b2-6bc9-41f2-b2bd-b6cbf0c128b4/unnamed.jpg",
+          "features": [
+            {
+              "text": "Planta no estado do PR, cerca de 400km de São Paulo/SP;"
+            },
+            {
+              "text": "<strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;"
+            },
+            {
+              "text": "<p>Operação atual contempla capacidade de <strong>50 ton/dia</strong> de resíduos e <strong>5 mil m³/dia</strong> de biogás</p>"
+            },
+            {
+              "text": "<p>A usina está em processo de<strong> expansão de capacidade</strong>, visando melhor beneficiamento dos resíduos locais</p>"
+            }
+          ]
         }
       ]
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Mission.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SustainabilityGoalsSection.tsx",
+        "backgroundColor": "#f5f5f5"
+      }
     },
     {
       "__resolveType": "Footer"
