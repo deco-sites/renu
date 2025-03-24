@@ -391,7 +391,7 @@ export default function SolutionsSection({
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                         </svg>
                       </div>
-                      <h4 className="text-xl font-bold text-emerald-800">PEQUENOS E MÉDIOS PRODUTORES</h4>
+                      <h4 className="text-xl font-bold text-emerald-800">GESTORES DE RESÍDUOS</h4>
                     </div>
                     
                     <div className="space-y-3 mt-4">
@@ -401,7 +401,7 @@ export default function SolutionsSection({
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                           </svg>
                         </div>
-                        <p className="text-gray-600">Evita alto investimento inicial (CAPEX)</p>
+                        <p className="text-gray-600"> Apoio técnico e financeiro </p>
                       </div>
                       
                       <div className="flex items-start gap-3">
@@ -410,7 +410,7 @@ export default function SolutionsSection({
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                           </svg>
                         </div>
-                        <p className="text-gray-600">Suporte técnico e manutenção inclusos</p>
+                        <p className="text-gray-600">Acesso simplificado a venda do biometano e digestato</p>
                       </div>
                       
                       <div className="flex items-start gap-3">
@@ -419,7 +419,7 @@ export default function SolutionsSection({
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                           </svg>
                         </div>
-                        <p className="text-gray-600">Flexibilidade para compra futura ou renovação</p>
+                        <p className="text-gray-600">Flexibilidade para exploração de parcerias</p>
                       </div>
                     </div>
                   </div>
