@@ -170,13 +170,13 @@ export default function SolutionsSection({
       { text: "Auxílio na conversão de frotas para biometano" }
     ]
   },
-  model2Title = "2. Modelo de locação de módulos de produção de biometano para produtores rurais",
-  model2Description = "O produtor utiliza o módulo e evita desembolso de compra para aquisição",
+  model2Title = "2. Modelo de produção e exploração de biometano para diversos tipos de resíduos",
+  model2Description = "O gestor de resíduos locais terá acesso a uma equipe de profissionais técnicos para implementação do biodigestor, terá o suporte financeiro para a construção da usina e acesso a comercialização do biometano.",
   businessModelImage,
   secondaryLogo,
-  infoText = "A Renu é proprietária de módulos de purificação de biogás em biometano",
+  infoText = "",
   smallImage,
-  caneText = "Troca de Cana por Capex e economia relacionada com a logística"
+  caneText = "Equipe especializada em investimentos e construção de biodigestores"
 }: Props) {
   return (
     <section className="relative overflow-hidden py-16" style={{ backgroundColor, color: textColor }}>
@@ -380,82 +380,6 @@ export default function SolutionsSection({
                   <p className="text-lg text-gray-700" dangerouslySetInnerHTML={{ __html: model2Description || "" }}></p>
                 </div>
                 
-                <div className="relative flex flex-col md:flex-row items-center justify-between gap-6 py-8">
-                  {/* Fluxo do processo */}
-                  <div className="w-full md:w-10/12 mx-auto">
-                    <div className="relative flex flex-col md:flex-row items-center justify-between gap-8 py-6">
-                      {/* Passo 1: Contrato de leasing */}
-                      <div className="w-full md:w-1/3 bg-white rounded-xl shadow-md p-5 relative z-10">
-                        <div className="absolute -top-4 -left-4 w-10 h-10 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">1</div>
-                        <div className="flex flex-col items-center text-center">
-                          <div className="bg-emerald-100 rounded-full p-4 mb-4">
-                            <svg className="w-12 h-12 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                          </div>
-                          <h4 className="font-bold text-lg text-emerald-800 mb-2">Contrato de leasing</h4>
-                          <p className="text-gray-600 text-sm">O produtor rural assina contrato para utilizar o módulo pagando um valor mensal</p>
-                        </div>
-                      </div>
-                      
-                      {/* Seta para direita */}
-                      <div className="hidden md:block">
-                        <svg className="w-16 h-8" viewBox="0 0 24 8" fill="none">
-                          <path d="M0 4H22M22 4L19 1M22 4L19 7" stroke="#10B981" strokeWidth="2"/>
-                        </svg>
-                      </div>
-                      
-                      {/* Seta para baixo em mobile */}
-                      <div className="block md:hidden my-2">
-                        <svg className="w-8 h-12" viewBox="0 0 8 24" fill="none">
-                          <path d="M4 0V22M4 22L1 19M4 22L7 19" stroke="#10B981" strokeWidth="2"/>
-                        </svg>
-                      </div>
-                      
-                      {/* Passo 2: Instalação e operação */}
-                      <div className="w-full md:w-1/3 bg-white rounded-xl shadow-md p-5 relative z-10">
-                        <div className="absolute -top-4 -left-4 w-10 h-10 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">2</div>
-                        <div className="flex flex-col items-center text-center">
-                          <div className="bg-emerald-100 rounded-full p-4 mb-4">
-                            <svg className="w-12 h-12 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
-                            </svg>
-                          </div>
-                          <h4 className="font-bold text-lg text-emerald-800 mb-2">Operação do módulo</h4>
-                          <p className="text-gray-600 text-sm">RENU instala e fornece suporte técnico para a operação contínua do módulo</p>
-                        </div>
-                      </div>
-                      
-                      {/* Seta para direita */}
-                      <div className="hidden md:block">
-                        <svg className="w-16 h-8" viewBox="0 0 24 8" fill="none">
-                          <path d="M0 4H22M22 4L19 1M22 4L19 7" stroke="#10B981" strokeWidth="2"/>
-                        </svg>
-                      </div>
-                      
-                      {/* Seta para baixo em mobile */}
-                      <div className="block md:hidden my-2">
-                        <svg className="w-8 h-12" viewBox="0 0 8 24" fill="none">
-                          <path d="M4 0V22M4 22L1 19M4 22L7 19" stroke="#10B981" strokeWidth="2"/>
-                        </svg>
-                      </div>
-                      
-                      {/* Passo 3: Opção de compra */}
-                      <div className="w-full md:w-1/3 bg-white rounded-xl shadow-md p-5 relative z-10">
-                        <div className="absolute -top-4 -left-4 w-10 h-10 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">3</div>
-                        <div className="flex flex-col items-center text-center">
-                          <div className="bg-emerald-100 rounded-full p-4 mb-4">
-                            <svg className="w-12 h-12 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                          </div>
-                          <h4 className="font-bold text-lg text-emerald-800 mb-2">Opção de compra</h4>
-                          <p className="text-gray-600 text-sm">Após o prazo acordado, o produtor tem a opção de adquirir o módulo permanentemente</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 
                 {/* Benefícios e Detalhes */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
@@ -534,7 +458,7 @@ export default function SolutionsSection({
                           </svg>
                         </div>
                         <div>
-                          <h5 className="font-bold text-blue-800">Troca de Capex por Opex:</h5>
+                          <h5 className="font-bold text-blue-800">Construção de um ecosistema:</h5>
                           <p className="text-sm text-gray-600" dangerouslySetInnerHTML={{ __html: caneText || "" }}></p>
                         </div>
                       </div>
