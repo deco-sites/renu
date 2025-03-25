@@ -38,9 +38,9 @@ export default function Header({
   navigation = {
     links: [
       { label: "Porque biometano?", url: "/" },
-      { label: "A Renu", url: "/" },
-      { label: "Para Consumidores", url: "/" },
-      { label: "Para Produtores Rurais", url: "/" },
+      { label: "Quem somos", url: "/" },
+      { label: "Soluções", url: "/" },
+      { label: "Nossos Projetos", url: "/" },
       { label: "Nossos Contatos", url: "/" },
     ],
   },
