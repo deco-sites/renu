@@ -32,6 +32,12 @@ export interface Props {
    * @description List of benefits of biometane
    */
   benefits?: Benefit[];
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 export default function BiometanoSection({
@@ -61,10 +67,11 @@ export default function BiometanoSection({
       title: "Redução de Efeitos sonoros",
       description: "Menor ruído em comparação com diesel"
     }
-  ]
+  ],
+  id="porque-biometano"
 }: Props) {
   return (
-    <section class="py-16 lg:py-24 relative">
+    <section id={id} class="relative py-16 md:py-24 bg-white">
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}
         <div class="flex flex-col items-center mb-16">

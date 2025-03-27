@@ -16,6 +16,12 @@ export interface Props {
   description?: string;
   cta?: CTA;
   questions?: Question[];
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 export default function BlogPosts({
@@ -50,9 +56,10 @@ export default function BlogPosts({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut vestibulum ligula. Nam et tellus sit amet magna convallis interdum. Integer fermentum ligula nec velit hendrerit, quis feugiat odio feugiat. Ut vel nisi auctor, rhoncus felis vitae, tempor metus. Fusce ut lectus et ex consectetur ullamcorper. Nulla facilisi. Proin ullamcorper, odio a consectetur posuere, mauris felis rutrum lectus, et convallis est risus vitae nisi. Suspendisse potenti. Donec ultricies consectetur lorem, eget tempor nisi cursus in. Vivamus at nulla eros. Sed nec malesuada mauris. Curabitur id ex sed neque rutrum tincidunt. Sed sed lectus nec libero eleifend luctus. Aenean convallis feugiat elit, non tincidunt eros vehicula sed. Phasellus pretium urna sit amet risus interdum tempor.",
     },
   ],
+  id
 }: Props) {
   return (
-    <section class="py-16 lg:py-24 relative overflow-hidden">
+    <section id={id} class="relative py-16 md:py-24 bg-white">
       
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}

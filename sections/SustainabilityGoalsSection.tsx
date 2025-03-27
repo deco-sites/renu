@@ -59,6 +59,12 @@ export interface Props {
    * @description List of ODS (Objetivos de Desenvolvimento Sustentável) items
    */
   goals?: SustainabilityGoal[];
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 export default function SustainabilityGoalsSection({
@@ -96,13 +102,11 @@ export default function SustainabilityGoalsSection({
       description: "Buscamos parcerias com órgãos públicos para transformar desafios locais em soluções sustentáveis.",
       iconBgColor: "#19486A"
     }
-  ]
+  ],
+  id
 }: Props) {
   return (
-    <section 
-      class="py-20 overflow-hidden relative"
-      style={{ backgroundColor }}
-    >
+    <section id={id} class={`relative py-16 md:py-24`} style={{ backgroundColor }}>
       
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}

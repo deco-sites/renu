@@ -1,0 +1,15 @@
+{
+  "__resolveType": "site/sections/SolutionsSection.tsx",
+  "title": "Nossas Soluções",
+  "subtitle": "Soluções inovadoras para produção de biometano",
+  "backgroundColor": "#ffffff",
+  "textColor": "#0F172A",
+  "model1Title": "1. Modelo de produção de Biometano e comercialização para a indústria",
+  "producerSolution": {
+    "benefits": []
+  },
+  "companySolution": {
+    "benefits": []
+  },
+  "model2Title": "2. Modelo de locação de módulos de produção de biometano para produtores rurais"
+}

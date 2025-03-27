@@ -45,6 +45,12 @@ export interface Props {
   formDescription?: string;
   copyright?: string;
   social?: Social[];
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 export default function Footer({
@@ -79,17 +85,18 @@ export default function Footer({
     { network: "Instagram", href: "https://instagram.com" },
     { network: "Linkedin", href: "https://linkedin.com" },
   ],
+  id="nossos-contatos"
 }: Props) {
   return (
-    <footer>
+    <footer id={id} class="relative bg-gray-900 text-white">
       {/* Seção superior com formulário e suporte */}
       <div className="bg-white py-12">
         <div className="container mx-auto px-4 md:px-8 max-w-7xl">
           <div className="flex flex-col md:flex-row gap-12 md:gap-24">
             {/* Coluna de Suporte */}
             <div className="w-full md:w-1/3">
-              <h3 className="text-xl font-semibold mb-6">{supportTitle}</h3>
-              <div className="space-y-4">
+              <h3 className="text-xl font-semibold mb-6 text-black">{supportTitle}</h3>
+              <div className="space-y-4 text-black">
                 <p>Entre em contato por e-mail via</p>
                 <a href={`mailto:${supportEmail}`} className="text-green-700 font-medium hover:underline block">
                   {supportEmail}

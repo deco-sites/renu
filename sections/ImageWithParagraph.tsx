@@ -85,6 +85,12 @@ export interface Props {
    * @default left
    */
   ctaPlacement?: "left" | "right" | "center";
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 const PLACEMENT = {
@@ -102,27 +108,20 @@ const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
 
 export default function ImageWithParagraph({
-  title = "PARA CONSUMIDORES",
+  title = "Para Consumidores",
   titlePlacement = "left",
-  benefits = [
-    { text: "Nossa solução se aplica a empresas baseadas no interior do país, próximas de regiões de produção agrícola" },
-    { text: "A Renu produz e fornece biometano seguindo as especificações e nível de serviço acordados" },
-    { text: "Possibilitamos a substituição do diesel pelo biometano em sua frota de caminhões e maquinário industrial" },
-    { text: "A produção de biometano é descentralizada, gerando menores riscos operacionais e maior estabilidade no fornecimento" },
-    { text: "O consumidor terá baixa necessidade de Capex (investimentos), focado apenas na substituição da frota por veículos movidos a biometano. Além disso, o projeto é implementado de forma faseada." },
-    { text: "Ao adotar 100% de biometano na frota, é possível obter redução de mais de 85% da emissão de carbono" },
-    { text: "A utilização de biometano permite economia financeira relevante, com redução de 20% a 30% dos custos totais com combustível na sua empresa" }
-  ],
+  benefits = [],
   backgroundColor = "#F9FAFB",
   iconBorderColor = "#10B981",
-  image = DEFAULT_IMAGE,
+  image,
   placement = "right",
-  disableSpacing,
   cta = [],
+  disableSpacing = { top: false, bottom: false },
   ctaPlacement = "left",
+  id
 }: Props) {
   return (
-    <div class="w-full" style={{ backgroundColor }}>
+    <section id={id} class={`relative py-16 md:py-24`} style={{ backgroundColor }}>
       <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div
           class={`flex ${
@@ -223,7 +222,7 @@ export default function ImageWithParagraph({
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

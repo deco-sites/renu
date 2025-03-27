@@ -46,21 +46,25 @@ export interface Props {
    * @description List of partner companies
    */
   partners?: Partner[];
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
-export default function AboutSection({
+export default function About({
   title = "QUEM SOMOS!",
-  logo = "",
+  logo,
   backgroundColor = "#f5f7f4",
-  content = `<p>A Renu é uma plataforma integrada de geração e distribuição de biometano.</p>
-<p>Geramos biometano a partir de uma gama de pequenos e médios produtores de suínos e gado e o comercializamos por meio de contratos de fornecimento.</p>
-<p>Além disso, temos uma solução de aluguel de módulos de biometano direto para o produtor rural, que pode gerar biometano para consumo próprio.</p>`,
-  partnersInfo = `<p>Somos uma empresa investida e incubada pelo braço de transição energética da Drys Investimentos, que é uma gestora de recursos baseada em São Paulo.</p>
-<p>O braço de transição energética da Drys também conta com um investimento na Electy, energytech que comercializa energia limpa de forma 100% digital.</p>`,
-  partners = []
+  content = "<p>A Renu é uma plataforma integrada de geração e distribuição de biometano.</p><p>Geramos biometano a partir de uma gama de pequenos e médios produtores de suínos e gado e o comercializamos por meio de contratos de fornecimento.</p><p>Além disso, temos uma solução de aluguel de módulos de biometano direto para o produtor rural, que pode gerar biometano para consumo próprio.</p>",
+  partnersInfo = "<p>Somos uma empresa investida e incubada pelo braço de transição energética da Drys Investimentos, que é uma gestora de recursos baseada em São Paulo.</p><p>O braço de transição energética da Drys também conta com um investimento na Electy, energytech que comercializa energia limpa de forma 100% digital.</p>",
+  partners = [],
+  id="a-renu"
 }: Props) {
   return (
-    <section class="relative py-16 lg:py-20 overflow-hidden">
+    <section id={id} class={`relative py-16 md:py-24`} style={{ backgroundColor }}>
       
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}
@@ -98,13 +102,13 @@ export default function AboutSection({
               
               {/* Logo container */}
               <div class="absolute inset-0 flex items-center justify-center">
-                <div class="w-48 h-48 md:w-64 md:h-64 relative overflow-hidden animate-float">
+                <div class="w-48 h-48 md:w-64 md:h-64 relative overflow-hidden animate-float flex items-center justify-center">
                   <Image
                     src={logo}
                     alt="Renu Logo"
-                    width={300}
-                    height={300}
-                    class="w-full h-full object-contain"
+                    width={285}
+                    height={380}
+                    class="w-auto h-full object-contain"
                   />
                 </div>
               </div>

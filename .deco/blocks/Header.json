@@ -4,23 +4,15 @@
     "links": [
       {
         "label": "Porque biometano?",
-        "url": "/"
+        "url": "#porque-biometano"
       },
       {
         "label": "A Renu",
-        "url": "/"
-      },
-      {
-        "label": "Para Consumidores",
-        "url": "/"
-      },
-      {
-        "label": "Para Produtores Rurais",
-        "url": "/"
+        "url": "#a-renu"
       },
       {
         "label": "Nossos Contatos",
-        "url": "/"
+        "url": "#nossos-contatos"
       }
     ],
     "buttons": []

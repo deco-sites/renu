@@ -39,9 +39,15 @@ export interface Props {
    * @description List of mission statements with icons
    */
   items?: MissionItem[];
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
-export default function MissionSection({
+export default function Mission({
   title = "Transformamos resíduos em energia limpa, impulsionando a sustentabilidade.",
   backgroundColor = "#f5f7f4",
   items = [
@@ -60,10 +66,11 @@ export default function MissionSection({
       content: "e buscamos soluções inovadoras para convertê-los em energia limpa, transformando-os em oportunidades que promovem sustentabilidade, rentabilidade e um amanhã mais sustentável.",
       icon: ""
     }
-  ]
+  ],
+  id
 }: Props) {
   return (
-    <section class="py-16 lg:py-24 relative bg-gray-50">
+    <section id={id} class={`relative py-16 md:py-24`} style={{ backgroundColor }}>
       
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}

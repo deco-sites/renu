@@ -38,9 +38,9 @@ export default function Header({
   navigation = {
     links: [
       { label: "Porque biometano?", url: "/" },
-      { label: "A Renu", url: "/" },
-      { label: "Para Consumidores", url: "/" },
-      { label: "Para Produtores Rurais", url: "/" },
+      { label: "Quem somos", url: "/" },
+      { label: "Soluções", url: "/" },
+      { label: "Nossos Projetos", url: "/" },
       { label: "Nossos Contatos", url: "/" },
     ],
   },
@@ -56,7 +56,7 @@ export default function Header({
       {/* main content */}
       <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-1 lg:py-4">
         <a href="/" class="flex-shrink-0">
-          <Image src={logo.src || ""} width={265} height={60} alt={logo.alt} className="max-h-[30px] lg:max-h-[60px]" />
+          <Image src={logo.src || ""} width={285} height={59} alt={logo.alt} className="max-w-[100px]" />
         </a>
 
         <div class="hidden items-center justify-center lg:flex w-full">

@@ -37,6 +37,12 @@ export interface Props {
    * @default Inicie uma conversa
    */
   chatButtonText?: string;
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 export default function Hero({
@@ -49,9 +55,10 @@ export default function Hero({
     outline: false,
   },
   chatButtonText = "Inicie uma conversa",
+  id
 }: Props) {
   return (
-    <div class="relative w-full h-screen overflow-hidden">
+    <section id={id} class="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with parallax effect */}
       <div class="absolute inset-0 w-full h-full">
         <Image
@@ -82,7 +89,7 @@ export default function Hero({
           </div>
           
           {/* Subtitle with glass morphism effect */}
-          <div class="w-fit px-6 py-4 rounded-sm max-w-2xl shadow-xl">
+          <div class="w-fit px-6 py-4 rounded-sm max-w-2xl">
             <p class="text-white text-lg md:text-xl lg:text-2xl font-light leading-relaxed" dangerouslySetInnerHTML={{ __html: subtitle }}></p>
           </div>
           
@@ -116,6 +123,6 @@ export default function Hero({
       <div class="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black to-transparent z-5"></div>
       <div class="absolute top-1/3 left-0 w-32 h-32 bg-green-500/10 rounded-full blur-3xl"></div>
       <div class="absolute top-2/3 right-10 w-40 h-40 bg-green-700/10 rounded-full blur-3xl"></div>
-    </div>
+    </section>
   );
 }

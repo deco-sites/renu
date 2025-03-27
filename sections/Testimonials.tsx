@@ -37,6 +37,12 @@ export interface Props {
    */
   interval?: number;
   subtitle?: string;
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 const DEFAULT_PROPS = {
@@ -182,7 +188,7 @@ function Buttons() {
           <Icon
             class="text-base-content"
             size={24}
-            id="ArrowLeft"
+            id="ArrowLeft" 
             strokeWidth={3}
           />
         </Slider.NextButton>
@@ -196,7 +202,7 @@ function Carousel(props: Props) {
   const { title, slides, interval } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <section class="py-16 lg:py-24 relative overflow-hidden">
+    <section id={props.id} class="relative py-16 md:py-24 bg-white">
       
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}

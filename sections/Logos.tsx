@@ -10,6 +10,12 @@ export interface Logo {
 export interface Props {
   title?: string;
   logos?: Logo[];
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
@@ -21,6 +27,7 @@ const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
 export default function Logos({
   title = "Edit this heading however you want",
   logos = IMG_PLACEHODLER,
+  id
 }: Props) {
   const slideContent = (
     <div class="flex items-center gap-20">
@@ -37,7 +44,7 @@ export default function Logos({
     </div>
   );
   return (
-    <section class="py-16 lg:py-24 relative overflow-hidden">
+    <section id={id} class="relative py-16 md:py-24 bg-white">
       
       <div class="container mx-auto px-4 relative z-10">
         {/* Título Padronizado */}

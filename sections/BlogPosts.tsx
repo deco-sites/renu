@@ -55,6 +55,12 @@ export interface Props {
    * @default #f5f7f4
    */
   backgroundColor?: string;
+
+  /**
+   * @title Section ID
+   * @description Unique identifier for the section
+   */
+  id?: string;
 }
 
 const DEFAULT_IMAGE =
@@ -77,9 +83,10 @@ export default function ProjectsShowcase({
       ]
     }
   ],
+  id
 }: Props) {
   return (
-    <section class="py-20 overflow-hidden relative" style={{ backgroundColor }}>
+    <section id={id} class={`relative py-16 md:py-24`} style={{ backgroundColor }}>
       
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="max-w-5xl mx-auto mb-16">
