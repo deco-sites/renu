@@ -9,7 +9,8 @@
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>RENU</p>",
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-      "backgroundImage": "https://assets.decocache.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg"
+      "backgroundImage": "https://assets.decocache.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg",
+      "subtitle": "Criando uma plataforma de sustentabilidade a partir da gestão de resíduos e geração de biometano e biofertilizante"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -33,91 +34,77 @@
             "image": "https://assets.decocache.com/renu/ca6dedb0-4823-4b0f-9acd-0ed478aba9b7/unnamed-(2).png",
             "name": "Equitas"
           }
-        ]
+        ],
+        "content": "<p>A Renu é uma plataforma de investimentos em projetos de transição energética. Nosso foco é de desenvolver e financiar projetos de geração de biometano, viabilizando sua utilização em regiões do país que hoje não possuem acesso a essa energia limpa.</p>",
+        "partnersInfo": "<p>Somos uma empresa investida e incubada pelo braço de transição energética da Drys Capital, que é uma gestora de recursos baseada em São Paulo.</p><p style=\"text-align: start\">O braço de transição energética da Drys também conta com um investimento na Electy, energytech que comercializa energia limpa de forma 100% digital.</p>"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Mission.tsx"
+        "__resolveType": "site/sections/SolutionsSection.tsx",
+        "producerSolution": {
+          "benefits": [
+            {
+              "text": "<p>Investimento para aprimoramento da sua operação visando produção de biometano</p><p></p>"
+            },
+            {
+              "text": "<p>Time técnico para estruturação de projetos de biometano</p>"
+            },
+            {
+              "text": "<p>Incremento de receita com a comercialização do biometano e crédito carbono</p>"
+            },
+            {
+              "text": "<p>Ampliação da gama de resíduos com possibilidade de serão tratados no biodigestor</p>"
+            },
+            {
+              "text": "<p>Geração de digestato com alto teor de NPK que pode ser comercializado como fertilizante</p>"
+            }
+          ],
+          "title": "Gestores de resíduos, compostagem e Aterros",
+          "description": "<p></p>"
+        },
+        "model2Title": "2. Modelo de exploração do biometano",
+        "model2Description": "<p>O gestor de resíduos locais terá acesso a uma equipe de profissionais técnicos para implementação do biodigestor, terá o suporte financeiro para a construção da usina e acesso a comercialização do biometano.</p>",
+        "infoText": "<p></p>",
+        "caneText": "<p>Criamos um ambiente de produção e captura de biometano.</p>",
+        "companySolution": {
+          "description": "<p></p>",
+          "benefits": [
+            {
+              "text": "<p><span style=\"color: #000000; font-size: medium\">Garantia de volume e nível de serviço contratado</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(55, 65, 81); font-size: medium\">Menor risco operacional: sem riscos de biometano</span></p>"
+            },
+            {
+              "text": "<p>Crédito redução e compensação de carbono</p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(55, 65, 81); font-size: medium\">Visibilidade e previsibilidade de custos a longo prazo</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(55, 65, 81); font-size: medium\">Flexibilidade: suporte para biometano desde na planta</span></p>"
+            },
+            {
+              "text": "<p><span style=\"color: rgb(55, 65, 81); font-size: medium\">Economia de 20-30% do custo com combustível</span></p>"
+            },
+            {
+              "text": "<p><span>Auxílio na conversão de frotas para biometano</span></p>"
+            }
+          ],
+          "title": "Empresas de consumo de gás e diesel"
+        },
+        "model1Title": "Construímos projetos customizados para atender uma vasta gama de resíduos e beneficiamos a cadeia energética através do biometano.",
+        "title": "Soluções"
       }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/SustainabilityGoalsSection.tsx",
-        "backgroundColor": "#f5f5f5"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/SolutionsSection.tsx"
-      }
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "image": "https://assets.decocache.com/renu/f354cb7b-01f5-403f-96d8-601d1b6fb9e2/bg2.8f9490627f1e1e139687.jpg",
-      "placement": "right",
-      "title": "PARA CONSUMIDORES",
-      "backgroundColor": "#F9FAFB",
-      "iconBorderColor": "#10B981",
-      "benefits": [
-        {
-          "text": "Nossa solução se aplica a empresas baseadas no interior do país, próximas de regiões de produção agrícola"
-        },
-        {
-          "text": "A Renu produz e fornece biometano seguindo as especificações e nível de serviço acordados"
-        },
-        {
-          "text": "Possibilitamos a substituição do diesel pelo biometano em sua frota de caminhões e maquinário industrial"
-        },
-        {
-          "text": "A produção de biometano é descentralizada, gerando menores riscos operacionais e maior estabilidade no fornecimento"
-        },
-        {
-          "text": "O consumidor terá baixa necessidade de Capex (investimentos), focado apenas na substituição da frota por veículos movidos a biometano. Além disso, o projeto é implementado de forma faseada."
-        },
-        {
-          "text": "Ao adotar 100% de biometano na frota, é possível obter redução de mais de 85% da emissão de carbono"
-        },
-        {
-          "text": "A utilização de biometano permite economia financeira relevante, com redução de 20% a 30% dos custos totais com combustível na sua empresa"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "title": "PARA PRODUTORES RURAIS",
-      "image": "https://assets.decocache.com/renu/6f5621b6-051e-409d-9395-1cf722d3607a/bg1.9aeac7b343aa37ab39ac.jpg",
-      "placement": "left",
-      "backgroundColor": "#F9FAFB",
-      "iconBorderColor": "#0F766E",
-      "benefits": [
-        {
-          "text": "A Renu <strong>instala e mantém toda a infraestrutura</strong> para conversão do biogás em biometano na sua fazenda"
-        },
-        {
-          "text": "A Renu <strong>comercializa o biometano</strong>, sem que o produtor rural tenha que se preocupar com isso"
-        },
-        {
-          "text": "Geramos uma <strong>renda extra mensal significativa</strong> para o produtor com base na produção de biometano gerado, independente do quanto foi comercializado"
-        },
-        {
-          "text": "Caso o produtor <strong>não possua biodigestor</strong> na fazenda, a Renu viabiliza essa estrutura"
-        },
-        {
-          "text": "Caso o produtor tenha interesse em <strong>alugar o módulo de biometano</strong>, a Renu possui essa oferta para você"
-        }
-      ],
-      "__render": "RuralProducersSection"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
       "__render": "ProjectsShowcase",
       "title": "Nossos Projetos",
       "backgroundColor": "#f5f7f4",
-      "description": "Conheça os cases de sucesso da Renu Energia",
+      "description": "<p>Conheça os cases de sucesso da Renu Energia</p>",
       "projects": [
         {
           "title": "A Usina de Biodigestão em Jacarezinho",
@@ -131,17 +118,27 @@
               "text": "<strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;"
             },
             {
-              "text": "Operação atual contempla capacidade de (i) 50 ton/dia de resíduos (gate fee); (ii) 5 mil m³/dia de biogás, queimado no flare;"
+              "text": "<p>Operação atual contempla capacidade de <strong>50 ton/dia</strong> de resíduos e <strong>5 mil m³/dia</strong> de biogás</p>"
             },
             {
-              "text": "A empresa possui <strong>terreno para expansão</strong> das operações, já incluído na transação;"
+              "text": "<p>A usina está em processo de<strong> expansão de capacidade</strong>, visando melhor beneficiamento dos resíduos locais</p>"
             }
           ]
         }
       ]
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Mission.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SustainabilityGoalsSection.tsx",
+        "backgroundColor": "#f5f5f5"
+      }
     },
     {
       "__resolveType": "Footer"
