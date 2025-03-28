@@ -103,6 +103,7 @@
       "__resolveType": "site/sections/BlogPosts.tsx",
       "__render": "ProjectsShowcase",
       "title": "Nossos Projetos",
+      "id": "nossos-projetos",
       "backgroundColor": "#f5f7f4",
       "description": "<p>Conheça os cases de sucesso da Renu Energia</p>",
       "projects": [

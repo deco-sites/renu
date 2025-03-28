@@ -3,12 +3,16 @@
   "navigation": {
     "links": [
       {
-        "label": "Porque biometano?",
+        "label": "Porque biometano ?",
         "url": "#porque-biometano"
       },
       {
         "label": "A Renu",
         "url": "#a-renu"
+      },
+      {
+        "label": "Nossos Projetos",
+        "url": "#nossos-projetos"
       },
       {
         "label": "Nossos Contatos",
