@@ -45,6 +45,35 @@
       }
     },
     {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "__render": "ProjectsShowcase",
+      "title": "Nossos Projetos",
+      "id": "nossos-projetos",
+      "backgroundColor": "#f5f7f4",
+      "description": "<p>Conheça os cases de sucesso da Renu Energia</p>",
+      "projects": [
+        {
+          "title": "Renu Jacarezinho",
+          "subtitle": "Planta em localização privilegiada e com área para expansão",
+          "image": "https://assets.decocache.com/renu/9c5b1414-a167-4d90-b7bc-f173b808f73e/WhatsApp-Image-2022-03-30-at-10.34.44.jpeg.jpg",
+          "features": [
+            {
+              "text": "<p>Planta no estado do PR, cerca de 400km de São Paulo/SP;</p>"
+            },
+            {
+              "text": "<p><strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;</p>"
+            },
+            {
+              "text": "<p>Operação atual contempla capacidade de <strong>50 ton/dia</strong> de resíduos e <strong>5 mil m³/dia</strong> de biogás</p>"
+            },
+            {
+              "text": "<p>A usina está em<strong> processo de expansão</strong>, visando elevar a capacidade de produção de <strong>biogás e biometano.</strong></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/SolutionsSection.tsx",
@@ -103,35 +132,6 @@
         "model1Title": "Construímos projetos customizados para atender uma vasta gama de resíduos e beneficiamos a cadeia energética através do biometano.",
         "title": "Soluções"
       }
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx",
-      "__render": "ProjectsShowcase",
-      "title": "Nossos Projetos",
-      "id": "nossos-projetos",
-      "backgroundColor": "#f5f7f4",
-      "description": "<p>Conheça os cases de sucesso da Renu Energia</p>",
-      "projects": [
-        {
-          "title": "Renu Jacarezinho",
-          "subtitle": "Planta em localização privilegiada e com área para expansão",
-          "image": "https://assets.decocache.com/renu/9c5b1414-a167-4d90-b7bc-f173b808f73e/WhatsApp-Image-2022-03-30-at-10.34.44.jpeg.jpg",
-          "features": [
-            {
-              "text": "<p>Planta no estado do PR, cerca de 400km de São Paulo/SP;</p>"
-            },
-            {
-              "text": "<p><strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;</p>"
-            },
-            {
-              "text": "<p>Operação atual contempla capacidade de <strong>50 ton/dia</strong> de resíduos e <strong>5 mil m³/dia</strong> de biogás</p>"
-            },
-            {
-              "text": "<p>A usina está em<strong> processo de expansão</strong>, visando elevar a capacidade de produção de <strong>biogás e biometano.</strong></p>"
-            }
-          ]
-        }
-      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
