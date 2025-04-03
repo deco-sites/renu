@@ -179,7 +179,7 @@ export default function SolutionsSection({
   caneText = "Equipe especializada em investimentos e construção de biodigestores"
 }: Props) {
   return (
-    <section className="relative overflow-hidden py-16" style={{ backgroundColor, color: textColor }}>
+    <section id="nossas-solucoes" className="relative overflow-hidden py-16" style={{ backgroundColor, color: textColor }}>
       {/* Gradientes de fundo para profundidade visual */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-0 left-0 h-64 w-64 rounded-full bg-green-100/30 blur-3xl"></div>

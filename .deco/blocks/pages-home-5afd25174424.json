@@ -7,10 +7,15 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>RENU</p>",
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
       "backgroundImage": "https://assets.decocache.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg",
-      "subtitle": "Criando uma plataforma de sustentabilidade a partir da gestão de resíduos e geração de biometano e biofertilizante"
+      "subtitle": "Criando uma plataforma de sustentabilidade a partir da gestão de resíduos e geração de biometano e biofertilizante",
+      "logo": {
+        "src": "https://assets.decocache.com/renu/bdbd79ab-f771-444f-97ac-b04956ea09fc/logo.bf9210bf61ef544599b5-(1).png",
+        "width": 300,
+        "altText": "Logo",
+        "height": 60
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

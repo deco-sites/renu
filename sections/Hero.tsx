@@ -6,6 +6,14 @@ export interface CTA {
   href: string;
   text: string;
   outline?: boolean;
+
+}
+
+export interface Logo {
+  src?: ImageWidget;
+  altText?: string;
+  width?: number;
+  height?: number;
 }
 
 export interface Props {
@@ -14,6 +22,11 @@ export interface Props {
    * @description Upload a background image for the hero section
    */
   backgroundImage?: ImageWidget;
+
+  /** 
+   * @title Logo
+   */
+  logo?: Logo;
   
   /**
    * @title Title
@@ -46,8 +59,9 @@ export interface Props {
 }
 
 export default function Hero({
+  logo,
   backgroundImage = "",
-  title = "RENU",
+  title = "",
   subtitle = "Reduzindo seus custos de combustível de forma sustentável e limpa por meio do biometano",
   cta = {
     href: "/",
@@ -85,6 +99,14 @@ export default function Hero({
                 dangerouslySetInnerHTML={{ __html: title }}
               >
               </h2>
+              {logo && <Image
+                src={logo?.src}
+                alt="Background"
+                width={logo?.width || 1920}
+                height={logo?.height || 1080}
+                class="relative"
+                loading="eager"
+              />}
             </div>
           </div>
           
