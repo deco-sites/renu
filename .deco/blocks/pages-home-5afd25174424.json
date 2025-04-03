@@ -36,7 +36,7 @@
             "url": "/"
           },
           {
-            "image": "https://assets.decocache.com/renu/ca6dedb0-4823-4b0f-9acd-0ed478aba9b7/unnamed-(2).png",
+            "image": "https://assets.decocache.com/renu/0baad40c-6e97-46e9-b329-1242d56ae4fb/Drys_logo_completo_positivo.png",
             "name": "Equitas"
           }
         ],
@@ -113,21 +113,21 @@
       "description": "<p>Conheça os cases de sucesso da Renu Energia</p>",
       "projects": [
         {
-          "title": "A Usina de Biodigestão em Jacarezinho",
+          "title": "Renu Jacarezinho",
           "subtitle": "Planta em localização privilegiada e com área para expansão",
           "image": "https://assets.decocache.com/renu/133249b2-6bc9-41f2-b2bd-b6cbf0c128b4/unnamed.jpg",
           "features": [
             {
-              "text": "Planta no estado do PR, cerca de 400km de São Paulo/SP;"
+              "text": "<p>Planta no estado do PR, cerca de 400km de São Paulo/SP;</p>"
             },
             {
-              "text": "<strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;"
+              "text": "<p><strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;</p>"
             },
             {
               "text": "<p>Operação atual contempla capacidade de <strong>50 ton/dia</strong> de resíduos e <strong>5 mil m³/dia</strong> de biogás</p>"
             },
             {
-              "text": "<p>A usina está em processo de<strong> expansão de capacidade</strong>, visando melhor beneficiamento dos resíduos locais</p>"
+              "text": "<p>A usina está em<strong> processo de expansão</strong>, visando elevar a capacidade de produção de <strong>biogás e biometano.</strong></p>"
             }
           ]
         }
