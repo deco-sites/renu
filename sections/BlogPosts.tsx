@@ -119,15 +119,17 @@ export default function ProjectsShowcase({
               <div class="p-0 md:p-0 flex flex-col md:flex-row">
                 {/* Características do projeto */}
                 <div class="w-full md:w-1/2 p-8 flex flex-col justify-start">
-                  <ul class="space-y-5">
+                  <ul class="flex flex-col justify-start items-start">
                     {project.features.map((feature, fIndex) => (
-                      <li key={fIndex} class="flex items-start gap-3">
+                      <li key={fIndex} class="mt-1 flex items-start justify-start gap-3 min-h-[48px]">
                         <div class="flex-shrink-0 mt-1">
                           <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                           </svg>
                         </div>
+                        <div class="w-full">
                         <p class="text-base text-gray-700" dangerouslySetInnerHTML={{ __html: feature.text }}></p>
+                        </div>
                       </li>
                     ))}
                   </ul>

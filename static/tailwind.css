@@ -2872,6 +2872,9 @@ html {
 .min-h-\[42px\] {
   min-height: 42px;
 }
+.min-h-\[48px\] {
+  min-height: 48px;
+}
 .min-h-full {
   min-height: 100%;
 }
