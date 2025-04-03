@@ -27,10 +27,14 @@ export interface Props {
   logo?: {
     src?: ImageWidget;
     alt?: string;
+    width?: number;
+    height?: number;
   };
   footerLogo?: {
     src?: ImageWidget;
     alt?: string;
+    width?: number;
+    height?: number;
   };
   supportTitle?: string;
   supportEmail?: string;
@@ -169,8 +173,8 @@ export default function Footer({
             <div className="w-32">
               <Image
                 src={footerLogo.src || ""}
-                width={128}
-                height={128}
+                width={footerLogo.width}
+                height={footerLogo.height}
                 alt={footerLogo.alt}
                 class="w-full h-auto"
               />

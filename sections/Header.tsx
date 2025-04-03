@@ -18,6 +18,8 @@ export interface Nav {
   logo?: {
     src?: ImageWidget;
     alt?: string;
+    height?: number;
+    width?: number;
   };
   navigation?: {
     links: {
@@ -56,7 +58,7 @@ export default function Header({
       {/* main content */}
       <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-1 lg:py-4">
         <a href="/" class="flex-shrink-0">
-          <Image src={logo.src || ""} width={285} height={59} alt={logo.alt} className="max-w-[100px]" />
+          <Image src={logo.src || ""} width={logo.width || 285} height={logo.height || 59} alt={logo.alt} className="max-w-[100px]" />
         </a>
 
         <div class="hidden items-center justify-center lg:flex w-full">
