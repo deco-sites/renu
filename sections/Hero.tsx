@@ -72,7 +72,7 @@ export default function Hero({
   id
 }: Props) {
   return (
-    <section id={id} class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id={id} class="relative min-h-screen flex items-start justify-center overflow-hidden">
       {/* Background Image with parallax effect */}
       <div class="absolute inset-0 w-full h-full">
         <Image
@@ -88,7 +88,7 @@ export default function Hero({
       </div>
       
       {/* Content */}
-      <div class="relative container mx-auto px-4 h-full flex flex-col justify-center lg:justify-end lg:pb-32 z-10">
+      <div class="relative container mx-auto px-4 h-full flex flex-col justify-center lg:justify-end lg:pt-32 z-10">
         <div class="flex flex-col max-w-3xl animate-fade-in">
           {/* RENU Title with modern styling */}
           <div class="group relative w-fit">
