@@ -151,15 +151,7 @@ export default function ProjectsShowcase({
               
               {/* Rodapé com CTA */}
               <div class="p-6 bg-gray-50 border-t border-gray-100 text-center">
-                <a 
-                  href="#" 
-                  class="inline-flex items-center gap-2 bg-green-100 text-green-800 hover:bg-green-200 transition-colors px-5 py-3 rounded-full font-medium"
-                >
-                  <span>Ver mais detalhes</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                  </svg>
-                </a>
+          
               </div>
             </div>
           ))}
