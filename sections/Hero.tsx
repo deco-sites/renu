@@ -63,11 +63,7 @@ export default function Hero({
   backgroundImage = "",
   title = "",
   subtitle = "Reduzindo seus custos de combustível de forma sustentável e limpa por meio do biometano",
-  cta = {
-    href: "/",
-    text: "Saiba mais!",
-    outline: false,
-  },
+  cta,
   chatButtonText = "Inicie uma conversa",
   id
 }: Props) {
@@ -116,7 +112,7 @@ export default function Hero({
           </div>
           
           {/* CTA Button with modern styling */}
-          <div class="flex flex-wrap gap-4 mt-6">
+          {cta && (<div class="flex flex-wrap gap-4 mt-6">
             <a
               href={cta?.href}
               class="rounded-full relative overflow-hidden group bg-green-700 hover:bg-green-800 text-white py-4 px-8 overflow-hidden text-lg font-medium transition-all duration-300 shadow-lg hover:shadow-green-700/30"
@@ -124,14 +120,14 @@ export default function Hero({
               <span class="relative z-10">{cta?.text}</span>
               <span class="absolute inset-0 w-0 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
-          </div>
+          </div>)}
         </div>
       </div>
       
       {/* Chat Button with modern styling */}
       <div class="absolute bottom-8 right-8 z-10">
         <a 
-          href="#" 
+          href="mailto:contato@renuenergia.com.br" 
           class="group flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white py-3 px-5 rounded-full transition-all duration-300 shadow-lg hover:shadow-green-700/30"
         >
           <span class="hidden md:inline">{chatButtonText}</span>
