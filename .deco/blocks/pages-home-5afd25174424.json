@@ -69,7 +69,13 @@
             {
               "text": "<p>A usina está em<strong> processo de expansão</strong>, visando elevar a capacidade de produção de <strong>biogás e biometano.</strong></p>"
             }
-          ]
+          ],
+          "logo": {
+            "src": "https://assets.decocache.com/renu/c4b8b603-ca5d-47d6-9024-18adc01c8206/logo_jacarezinho.jpeg",
+            "alt": "Logo Jacarezinho",
+            "width": 100,
+            "height": 250
+          }
         }
       ]
     },

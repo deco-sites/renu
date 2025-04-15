@@ -29,6 +29,16 @@ export interface Project {
    * @title Características do projeto
    */
   features: ProjectFeature[];
+
+  /**
+   * @title Logo da empresa
+   */
+  logo?: {
+    src: ImageWidget;
+    alt: string;
+    width: number;
+    height: number;
+  };
 }
 
 export interface Props {
@@ -111,9 +121,18 @@ export default function ProjectsShowcase({
           {projects?.map((project, index) => (
             <div key={index} class="bg-white rounded-xl overflow-hidden shadow-lg">
               {/* Cabeçalho do projeto */}
-              <div class="bg-gradient-to-r from-green-700 to-green-900 p-8 text-white">
-                <h3 class="text-3xl font-bold mb-2">{project.title}</h3>
-                <p class="text-xl font-medium text-green-100">{project.subtitle}</p>
+              <div class="bg-gradient-to-r from-green-700 to-green-900 px-8 py-2 text-white flex flex-row gap-4 justify-between items-center h-40 max-h-40">
+                <div class="flex flex-col gap-4">
+                  <h3 class="text-3xl font-bold mb-2">{project.title}</h3>
+                  <p class="text-xl font-medium text-green-100">{project.subtitle}</p>
+                </div>
+                <Image
+                  width={project.logo?.width}
+                  height={project.logo?.height}
+                  class="max-w-24 w-auto max-h-20 h-auto object-cover" 
+                  src={project.logo?.src}
+                  alt={project.logo?.alt}
+                />
               </div>
               
               <div class="p-0 md:p-0 flex flex-col md:flex-row">
