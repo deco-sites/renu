@@ -31,11 +31,6 @@
         "logo": "https://assets.decocache.com/renu/b97ead8c-49e2-4463-bedf-9cdab62de7d6/3d-logo-(1).png",
         "partners": [
           {
-            "image": "https://assets.decocache.com/renu/33f9cce5-bd95-4a18-ad3c-3f7f88c241e9/unnamed-(1).png",
-            "name": "Electy",
-            "url": "/"
-          },
-          {
             "image": "https://assets.decocache.com/renu/0baad40c-6e97-46e9-b329-1242d56ae4fb/Drys_logo_completo_positivo.png",
             "name": "Equitas"
           }
@@ -54,28 +49,28 @@
       "projects": [
         {
           "title": "Renu Jacarezinho",
-          "subtitle": "Planta em localização privilegiada e com área para expansão",
           "image": "https://assets.decocache.com/renu/9c5b1414-a167-4d90-b7bc-f173b808f73e/WhatsApp-Image-2022-03-30-at-10.34.44.jpeg.jpg",
           "features": [
             {
-              "text": "<p>Planta no estado do PR, cerca de 400km de São Paulo/SP;</p>"
+              "text": "<p>A RENU Jacarezinho é uma unidade industrial da Renu Energia voltada à produção de<strong> biogás, biometano e fertilizantes organominerais</strong> a partir do tratamento de resíduos orgânicos. <strong>Está localizada no município de Jacarezinho, </strong>no estado do Paraná, a aproximadamente 400 km de São Paulo/SP.</p>"
             },
             {
-              "text": "<p><strong>Localização privilegiada</strong>, na beira de rodovia, próxima a grandes empresas geradoras de resíduos e consumidoras de gás;</p>"
+              "text": "<p><strong>Com localização estratégica às margens da BR-153,</strong> a planta está próxima a grandes geradores de resíduos orgânicos e potenciais consumidores de gás, o que otimiza a logística de suprimento e distribuição.</p>"
             },
             {
-              "text": "<p>Operação atual contempla capacidade de <strong>50 ton/dia</strong> de resíduos e <strong>5 mil m³/dia</strong> de biogás</p>"
+              "text": "<p>Atualmente, a unidade opera com capacidade de processamento de até <strong>50 toneladas/dia</strong> de resíduos orgânicos e <strong>geração de cerca de 5.000 m³/dia de biogás.</strong></p>"
             },
             {
-              "text": "<p>A usina está em<strong> processo de expansão</strong>, visando elevar a capacidade de produção de <strong>biogás e biometano.</strong></p>"
+              "text": "<p><strong>A planta está em fase de expansão</strong>, com investimentos que visam ampliar sua <strong>capacidade de produção de biometano.</strong></p>"
             }
           ],
           "logo": {
-            "src": "https://assets.decocache.com/renu/06e7cec3-9d81-466f-bbbd-ad76d5b67902/logo_jacarezinho.png",
+            "src": "https://assets.decocache.com/renu/04898fda-69f1-498f-958d-90ebacaea37b/Logo-Branco.png",
             "alt": "Logo Jacarezinho",
-            "width": 250,
-            "height": 250
-          }
+            "width": 380,
+            "height": 300
+          },
+          "subtitle": "Unidade de valorização de resíduos e geração de biogás e biometano – Jacarezinho/PR"
         }
       ]
     },
