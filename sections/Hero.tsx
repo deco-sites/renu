@@ -84,7 +84,7 @@ export default function Hero({
       </div>
       
       {/* Content */}
-      <div class="relative container mx-auto px-4 h-full flex flex-col justify-center lg:justify-end lg:pt-32 z-10">
+      <div class="relative container mx-auto px-4 h-full flex flex-col justify-center lg:justify-end lg:pt-64 z-10">
         <div class="flex flex-col max-w-3xl animate-fade-in">
           {/* RENU Title with modern styling */}
           <div class="group relative w-fit">
