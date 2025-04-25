@@ -89,20 +89,25 @@ export default function Hero({
           {/* RENU Title with modern styling */}
           <div class="group relative w-fit">
             <div class="absolute -inset-0.5"></div>
-            <div class="relative p-6 lg:p-8">
-              <h2
-                class="text-white text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter"
+            <div class="relative p-6 lg:p-4">
+              {title && <h2
+                className="text-[130px] font-black tracking-[2px] leading-[110px] text-[#e4e4e4]"
+                style={{
+                  background: '-webkit-linear-gradient(#eee, #eee, #eee, #144a41)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                }}
                 dangerouslySetInnerHTML={{ __html: title }}
               >
-              </h2>
-              {logo && <Image
+              </h2>}
+              {logo?.src && (<Image
                 src={logo?.src}
                 alt="Background"
                 width={logo?.width || 1920}
                 height={logo?.height || 1080}
                 class="relative"
                 loading="eager"
-              />}
+              />)}
             </div>
           </div>
           

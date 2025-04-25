@@ -42,7 +42,7 @@ export interface Props {
   contactTitle?: string;
   contactEmail?: string;
   sponsorTitle?: string;
-  sponsorItem?: string;
+  sponsorItems?: Items[];
   linksTitle?: string;
   linksItems?: Items[];
   formTitle?: string;
@@ -74,7 +74,9 @@ export default function Footer({
   contactTitle = "Contato",
   contactEmail = "contato@renuenergia.com.br",
   sponsorTitle = "Sponsor",
-  sponsorItem = "Drys",
+  sponsorItems = [
+    { label: " Drýs Capital", href: "https://dryscapital.com.br/" }
+  ],
   linksTitle = "Links",
   linksItems = [
     { label: "Renu", href: "/" },
@@ -191,7 +193,15 @@ export default function Footer({
             {/* Coluna de Sponsor */}
             <div>
               <h4 className="text-lg font-semibold mb-4">{sponsorTitle}</h4>
-              <p>{sponsorItem}</p>
+              <ul className="space-y-2">
+                {sponsorItems.map((item, index) => (
+                  <li key={index}>
+                    <a href={item.href} className="hover:underline block">
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
             
             {/* Coluna de Links */}
