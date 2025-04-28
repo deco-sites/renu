@@ -9,7 +9,7 @@
       "__resolveType": "site/sections/Hero.tsx",
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
       "backgroundImage": "https://assets.decocache.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg",
-      "subtitle": "Criando uma plataforma de sustentabilidade a partir da gestão de resíduos e geração de biometano e biofertilizante",
+      "subtitle": "Criando uma plataforma de sustentabilidade a partir da gestão de resíduos e geração de biometano e condicionador de solo.",
       "logo": {
         "width": 300,
         "altText": "Logo",
@@ -52,7 +52,7 @@
           "image": "https://assets.decocache.com/renu/9c5b1414-a167-4d90-b7bc-f173b808f73e/WhatsApp-Image-2022-03-30-at-10.34.44.jpeg.jpg",
           "features": [
             {
-              "text": "<p>A RENU Jacarezinho é uma unidade industrial da Renu Energia voltada à produção de<strong> biogás, biometano e fertilizantes organominerais</strong> a partir do tratamento de resíduos orgânicos. <strong>Está localizada no município de Jacarezinho, </strong>no estado do Paraná, a aproximadamente 400 km de São Paulo/SP.</p>"
+              "text": "<p>A RENU Jacarezinho é uma unidade industrial da Renu Energia voltada à produção de<strong> biogás, biometano e condicionador de solo</strong> a partir do tratamento de resíduos orgânicos. <strong>Está localizada no município de Jacarezinho, </strong>no estado do Paraná, a aproximadamente 400 km de São Paulo/SP.</p>"
             },
             {
               "text": "<p><strong>Com localização estratégica às margens da BR-153,</strong> a planta está próxima a grandes geradores de resíduos orgânicos e potenciais consumidores de gás, o que otimiza a logística de suprimento e distribuição.</p>"
@@ -93,7 +93,7 @@
               "text": "<p>Ampliação da gama de resíduos com possibilidade de serão tratados no biodigestor</p>"
             },
             {
-              "text": "<p>Geração de digestato com alto teor de NPK que pode ser comercializado como fertilizante</p>"
+              "text": "<p>Geração de digestato com alto teor de NPK que pode ser comercializado como condicionador de solo</p>"
             }
           ],
           "title": "Gestores de resíduos, compostagem e Aterros",
