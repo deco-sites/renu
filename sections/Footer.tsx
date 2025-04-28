@@ -1,5 +1,6 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
+import { useScript } from "@deco/deco/hooks";
 
 export interface Column {
   title: string;
@@ -119,7 +120,7 @@ export default function Footer({
               <h3 className="text-xl font-semibold mb-6">{formTitle}</h3>
               <p className="mb-6">{formDescription}</p>
               
-              <form className="space-y-4 text-black">
+              <form className="space-y-4 text-black" id="contact_form">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <input
                     type="text"
@@ -314,6 +315,36 @@ export default function Footer({
           </div>
         </div>
       </div>
+      <script type="module" dangerouslySetInnerHTML={{
+           __html: useScript((e)=> {
+            console.log(e)
+            const form = document.getElementById("contact_form");
+            if(!form) return;
+            form?.addEventListener("submit", function (e) {
+              e.preventDefault(); // Impede o envio normal do formulário
+
+              const inputs = form.querySelectorAll("input, textarea") || [];
+ 
+              const firstName = encodeURIComponent(inputs[0].value.trim());
+              const lastName = encodeURIComponent(inputs[1].value.trim());
+              const phone = encodeURIComponent(inputs[2].value.trim());
+              const email = encodeURIComponent(inputs[3].value.trim());
+              const message = encodeURIComponent(inputs[4].value.trim());
+
+              const fullName = `${firstName} ${lastName}`;
+
+              const mailto = `mailto:contato@renuenergia.com.br`
+                + `?subject=Contato%20do%20site%20via%20formulário`
+                + `&body=Nome:%20${fullName}%0A`
+                + `Telefone:%20${phone}%0A`
+                + `Email:%20${email}%0A`
+                + `Mensagem:%20${message}`;
+
+              // window.location.href = mailto;
+              console.log(mailto)
+            });
+                  }, "oi teste"),
+              }}/>
     </footer>
   );
 }
