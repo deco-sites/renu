@@ -119,7 +119,7 @@ export default function Footer({
               <h3 className="text-xl font-semibold mb-6">{formTitle}</h3>
               <p className="mb-6">{formDescription}</p>
               
-              <form className="space-y-4">
+              <form className="space-y-4 text-black">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <input
                     type="text"
@@ -152,7 +152,7 @@ export default function Footer({
                 <textarea
                   placeholder="Mensagem"
                   rows={4}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600"
+                  className="text-black w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600"
                   required
                 ></textarea>
                 
