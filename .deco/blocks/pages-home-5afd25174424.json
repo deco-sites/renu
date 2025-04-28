@@ -21,7 +21,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BiometanoSection.tsx",
-        "image": "https://assets.decocache.com/renu/f354cb7b-01f5-403f-96d8-601d1b6fb9e2/bg2.8f9490627f1e1e139687.jpg"
+        "image": "https://assets.decocache.com/renu/7ea98350-9a08-468b-8255-373f5b444f25/WhatsApp-Image-2025-04-28-at-17.07.23.jpeg"
       }
     },
     {
@@ -32,7 +32,8 @@
         "partners": [
           {
             "image": "https://assets.decocache.com/renu/0baad40c-6e97-46e9-b329-1242d56ae4fb/Drys_logo_completo_positivo.png",
-            "name": "Equitas"
+            "name": "Equitas",
+            "url": "https://dryscapital.com.br/"
           }
         ],
         "content": "<p>A Renu é uma plataforma de investimentos em projetos de transição energética. Nosso foco é de desenvolver e financiar projetos de geração de biometano, viabilizando sua utilização em regiões do país que hoje não possuem acesso a essa energia limpa.</p>",
