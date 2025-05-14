@@ -78,6 +78,24 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Noticias.tsx",
+        "noticias": [
+          {
+            "image": "https://i0.wp.com/npdiario.com.br/wp-content/uploads/2025/04/renu-energia.jpg?resize=768%2C435&ssl=1",
+            "name": "Renu Energia assume controle da USITRORG",
+            "url": "https://npdiario.com.br/cidades/renu-energia-assume-controle-da-usitrorg/",
+            "date": "17 Abril 2025",
+            "source": "https://i0.wp.com/npdiario.com.br/wp-content/uploads/2021/01/logo-300x80-1.png?fit=300%2C80&ssl=1",
+            "logoBackground": "#ff0000",
+            "highlight": "#d41616",
+            "sourceName": "npdiario.com"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/SolutionsSection.tsx",
         "producerSolution": {
           "benefits": [
