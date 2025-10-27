@@ -26,10 +26,17 @@ export interface Props {
   noticias?: Noticias[];
 }
 
+const getGridCols = (index) => {
+  const cols = index >= 3 ? 3 : index; // limita a 3 colunas
+  return `grid-cols-${cols}`;
+};
+
 export default function NewsSection({
   title = "Oque falam sobre nós",
   noticias = []
 }: Props) {
+
+  const gridClass = `grid ${getGridCols(noticias.length)}`;
   return (
     <section 
       class="py-24 relative overflow-hidden" 
@@ -52,7 +59,7 @@ export default function NewsSection({
           </div>
 
         {/* Noticias */}
-        <div className="flex md:flex-nowrap justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {noticias?.map((noticia)=>{
             return (
               <a href={noticia.url} className="card max-w-96 bg-white rounded-xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 hover:border-green-200 group flex flex-col justify-center items-center">
