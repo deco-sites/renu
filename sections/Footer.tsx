@@ -61,12 +61,12 @@ export interface Props {
 export default function Footer({
   logo = {
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
+      "https://decoims.com/vtexadsnetwork/2784ee00-6000-4be2-8f0a-3668b2d80d41/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
     alt: "Logo",
   },
   footerLogo = {
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
+      "https://decoims.com/vtexadsnetwork/2784ee00-6000-4be2-8f0a-3668b2d80d41/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
     alt: "Logo do Rodapé",
   },
   supportTitle = "Suporte",
