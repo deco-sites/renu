@@ -8,7 +8,7 @@
     {
       "__resolveType": "site/sections/Hero.tsx",
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-      "backgroundImage": "https://assets.decocache.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg",
+      "backgroundImage": "https://decoims.com/renu/d869ad06-099f-405d-8794-4b2c33b34560/bg.a0ab49da6e27e85c833d.jpg",
       "subtitle": "Criando uma plataforma de sustentabilidade a partir da gestão de resíduos e geração de biometano e condicionador de solo.",
       "logo": {
         "width": 300,
@@ -21,7 +21,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BiometanoSection.tsx",
-        "image": "https://assets.decocache.com/renu/7ea98350-9a08-468b-8255-373f5b444f25/WhatsApp-Image-2025-04-28-at-17.07.23.jpeg",
+        "image": "https://decoims.com/renu/7ea98350-9a08-468b-8255-373f5b444f25/WhatsApp-Image-2025-04-28-at-17.07.23.jpeg",
         "content": "<p>No processo de biodigestão anaeróbica, resíduos agroindustriais e industriais são transformados em biogás — uma mistura composta principalmente por metano (CH₄) e gás carbônico (CO₂). Por meio do processo de purificação (upgrading), o CO₂ e outros gases são removidos, resultando em biometano, um combustível renovável com alto poder energético.</p><p>Além do biometano, o processo também gera o digestato, um subproduto rico em matéria orgânica estabilizada, que pode ser utilizado como fertilizante natural em lavouras, fechando o ciclo sustentável de aproveitamento dos resíduos.</p><p>A Renu atua conectando geradores de resíduos, tecnologias de biodigestão e purificação e consumidores finais de biometano — sejam indústrias, frotas veiculares ou unidades de autoconsumo.</p><p>Nosso propósito é transformar resíduos em energia limpa, promovendo eficiência, sustentabilidade e inovação no setor&nbsp;energético.</p>",
         "title": "Por que Biometano?"
       }
@@ -30,10 +30,10 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/About.tsx",
-        "logo": "https://assets.decocache.com/renu/b97ead8c-49e2-4463-bedf-9cdab62de7d6/3d-logo-(1).png",
+        "logo": "https://decoims.com/renu/b97ead8c-49e2-4463-bedf-9cdab62de7d6/3d-logo-(1).png",
         "partners": [
           {
-            "image": "https://assets.decocache.com/renu/0baad40c-6e97-46e9-b329-1242d56ae4fb/Drys_logo_completo_positivo.png",
+            "image": "https://decoims.com/renu/0baad40c-6e97-46e9-b329-1242d56ae4fb/Drys_logo_completo_positivo.png",
             "name": "Equitas",
             "url": "https://dryscapital.com.br/"
           }
@@ -52,7 +52,7 @@
       "projects": [
         {
           "title": "Renu Jacarezinho",
-          "image": "https://assets.decocache.com/renu/9c5b1414-a167-4d90-b7bc-f173b808f73e/WhatsApp-Image-2022-03-30-at-10.34.44.jpeg.jpg",
+          "image": "https://decoims.com/renu/9c5b1414-a167-4d90-b7bc-f173b808f73e/WhatsApp-Image-2022-03-30-at-10.34.44.jpeg.jpg",
           "features": [
             {
               "text": "<p>A RENU Jacarezinho é uma unidade industrial da Renu Energia voltada à produção de<strong> biogás, biometano e condicionador de solo</strong> a partir do tratamento de resíduos orgânicos. <strong>Está localizada no município de Jacarezinho, </strong>no estado do Paraná, a aproximadamente 400 km de São Paulo/SP.</p>"
@@ -68,7 +68,7 @@
             }
           ],
           "logo": {
-            "src": "https://assets.decocache.com/renu/04898fda-69f1-498f-958d-90ebacaea37b/Logo-Branco.png",
+            "src": "https://decoims.com/renu/04898fda-69f1-498f-958d-90ebacaea37b/Logo-Branco.png",
             "alt": "Logo Jacarezinho",
             "width": 380,
             "height": 300
@@ -170,8 +170,8 @@
             "highlight": "#000000",
             "url": "https://biogaseenergia.com.br/planet-e-renu-expandem-producao-de-biometano-no-pr",
             "name": "Parceria entre Renu Energia e PlanET na Planta de Jacarezinho/PR",
-            "image": "https://assets.decocache.com/renu/76229aed-fd9a-4633-a3ef-9799849dadf1/Captura-de-tela-2025-10-27-102614.png",
-            "source": "https://assets.decocache.com/renu/50ab57c6-e570-4df9-b56b-0b4c22ce53ba/images.jpg",
+            "image": "https://decoims.com/renu/76229aed-fd9a-4633-a3ef-9799849dadf1/Captura-de-tela-2025-10-27-102614.png",
+            "source": "https://decoims.com/renu/50ab57c6-e570-4df9-b56b-0b4c22ce53ba/images.jpg",
             "date": "27 de Outubro de 2025",
             "sourceName": "Energia e Biogás"
           }
